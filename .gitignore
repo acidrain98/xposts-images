@@ -1,0 +1,13 @@
+# Never commit secrets or local credential files
+.env
+.env.*
+*.env
+secrets.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
+*credentials*
